@@ -188,7 +188,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Color: Yellow'
+  m_text: Color
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 134895372}
   - component: {fileID: 134895371}
   - component: {fileID: 134895370}
+  - component: {fileID: 134895374}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -362,6 +363,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134895374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134895369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e0061cae0289e48b6feb7426fc2d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapeTypeText: {fileID: 1984921481}
+  colorText: {fileID: 87316306}
+  sizeText: {fileID: 1985683180}
+  typeOfShape: 
+  colorOfShape: 
+  sizeOfShape: 
 --- !u!1 &418682992
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +393,7 @@ GameObject:
   - component: {fileID: 418682995}
   - component: {fileID: 418682994}
   - component: {fileID: 418682993}
+  - component: {fileID: 418682997}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -469,6 +489,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &418682997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418682992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4475d080802e7445a91e710419e9259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapeTypeText: {fileID: 1984921481}
+  colorText: {fileID: 87316306}
+  sizeText: {fileID: 1985683180}
+  typeOfShape: 
+  colorOfShape: 
+  sizeOfShape: 
 --- !u!1 &566909007
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +681,7 @@ GameObject:
   - component: {fileID: 944567191}
   - component: {fileID: 944567190}
   - component: {fileID: 944567189}
+  - component: {fileID: 944567193}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -738,6 +777,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &944567193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944567188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbc9c7ee2825534ca9875f44f1836d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapeTypeText: {fileID: 1984921481}
+  colorText: {fileID: 87316306}
+  sizeText: {fileID: 1985683180}
+  typeOfShape: 
+  colorOfShape: 
+  sizeOfShape: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,6 +1017,7 @@ GameObject:
   - component: {fileID: 1459996114}
   - component: {fileID: 1459996113}
   - component: {fileID: 1459996112}
+  - component: {fileID: 1459996116}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1054,6 +1112,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1459996116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459996111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a43f706fa3850a4095e1f9fe57356cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapeTypeText: {fileID: 1984921481}
+  colorText: {fileID: 87316306}
+  sizeText: {fileID: 1985683180}
+  typeOfShape: 
+  colorOfShape: 
+  sizeOfShape: 
 --- !u!1 &1522500083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,6 +1142,7 @@ GameObject:
   - component: {fileID: 1522500086}
   - component: {fileID: 1522500085}
   - component: {fileID: 1522500084}
+  - component: {fileID: 1522500088}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1159,6 +1236,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1522500088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522500083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62387efb0d3035468fd2b80a055f637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapeTypeText: {fileID: 1984921481}
+  colorText: {fileID: 87316306}
+  sizeText: {fileID: 1985683180}
+  typeOfShape: 
+  colorOfShape: 
+  sizeOfShape: 
 --- !u!1 &1661672253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1661672254
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1409,7 +1504,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Size: 2x'
+  m_text: Size
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
