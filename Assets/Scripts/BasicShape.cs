@@ -8,14 +8,15 @@ using UnityEngine;
 
 public class BasicShape : MonoBehaviour
 {
-    public TextMeshProUGUI shapeTypeText;
-    public TextMeshProUGUI colorText;
-    public TextMeshProUGUI sizeText;
+    [SerializeField] private TextMeshProUGUI shapeTypeText;// ENCAPSULATION
+    [SerializeField] private TextMeshProUGUI colorText;
+    [SerializeField] private TextMeshProUGUI sizeText;
 
-    public string typeOfShape;
-    public string colorOfShape;
-    public string sizeOfShape;
-    public virtual void SetData()
+
+    public string typeOfShape { get; protected set; }// ENCAPSULATION
+    public string colorOfShape { get; protected set; }
+    public string sizeOfShape { get; protected set; }
+    public virtual void SetData() // ABSTRACTION
     {
         typeOfShape = "???";
         colorOfShape = "???";
@@ -28,7 +29,7 @@ public class BasicShape : MonoBehaviour
         DisplayText();
     }
 
-    public void DisplayText()
+    public void DisplayText() // ABSTRACTION
     {
         shapeTypeText.text = "Shape Type: " + typeOfShape;
         colorText.text = "Color: " + colorOfShape;
