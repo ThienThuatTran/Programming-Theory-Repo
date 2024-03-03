@@ -16,7 +16,7 @@ public class BasicShape : MonoBehaviour
     public string typeOfShape { get; protected set; }// ENCAPSULATION
     public string colorOfShape { get; protected set; }
     public string sizeOfShape { get; protected set; }
-    public virtual void SetData() // ABSTRACTION
+    public virtual void SetData() // ABSTRACTION 
     {
         typeOfShape = "???";
         colorOfShape = "???";
