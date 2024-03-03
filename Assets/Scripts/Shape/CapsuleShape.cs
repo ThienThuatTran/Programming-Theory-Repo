@@ -5,7 +5,7 @@ using UnityEngine;
 public class CapsuleShape : BasicShape // INHERITANCE
 {
     
-    public override void SetData() // POLYMORPHISM
+    public override void SetData() //  POLYMORPHISM
     {
         typeOfShape = "Capsule";
         colorOfShape = "Blue";
